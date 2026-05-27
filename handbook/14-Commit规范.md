@@ -189,8 +189,8 @@ module.exports = {
       'feat', 'fix', 'refactor', 'perf', 'test',
       'docs', 'style', 'build', 'ci', 'chore', 'revert'
     ]],
-    'subject-full-stop': [2, 'never', '.'],
-    'subject-max-length': [2, 'always', 72]
+    'subject-full-stop': [2, 'never', '.'],    # [2, 'never', '.'] = 禁止句号结尾
+    'subject-max-length': [2, 'always', 72]   # [2, 'always', 72] = 限制 72 字符
   }
 };
 ```
